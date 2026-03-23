@@ -1,0 +1,2672 @@
+[
+  {
+    "id": "reg_alaska",
+    "name": "Alaska",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_canada_west",
+      "reg_russia_far_east",
+      "reg_arctic"
+    ],
+    "population": 1,
+    "prosperity": 58,
+    "unrest": 12,
+    "controlling_faction_id": "fac_bureau",
+    "lon": -150,
+    "lat": 63
+  },
+  {
+    "id": "reg_canada_west",
+    "name": "Canada West",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_alaska",
+      "reg_canada_east",
+      "reg_usa_pacific",
+      "reg_usa_mountain",
+      "reg_arctic"
+    ],
+    "population": 13,
+    "prosperity": 72,
+    "unrest": 14,
+    "controlling_faction_id": "fac_bureau",
+    "lon": -120,
+    "lat": 59.5
+  },
+  {
+    "id": "reg_canada_east",
+    "name": "Canada East",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_canada_west",
+      "reg_usa_midwest",
+      "reg_usa_northeast",
+      "reg_greenland",
+      "reg_arctic"
+    ],
+    "population": 25,
+    "prosperity": 74,
+    "unrest": 14,
+    "controlling_faction_id": "fac_bureau",
+    "lon": -76,
+    "lat": 57.5
+  },
+  {
+    "id": "reg_greenland",
+    "name": "Greenland",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_canada_east",
+      "reg_iceland",
+      "reg_arctic"
+    ],
+    "population": 1,
+    "prosperity": 30,
+    "unrest": 8,
+    "controlling_faction_id": "fac_bureau",
+    "lon": -38,
+    "lat": 72
+  },
+  {
+    "id": "reg_usa_pacific",
+    "name": "USA Pacific",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_canada_west",
+      "reg_usa_mountain",
+      "reg_usa_south_central",
+      "reg_mexico"
+    ],
+    "population": 55,
+    "prosperity": 80,
+    "unrest": 28,
+    "controlling_faction_id": "fac_bureau",
+    "lon": -119.5,
+    "lat": 40.5
+  },
+  {
+    "id": "reg_usa_mountain",
+    "name": "USA Mountain",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_canada_west",
+      "reg_usa_pacific",
+      "reg_usa_great_plains",
+      "reg_usa_south_central",
+      "reg_mexico"
+    ],
+    "population": 24,
+    "prosperity": 68,
+    "unrest": 22,
+    "controlling_faction_id": "fac_bureau",
+    "lon": -108.5,
+    "lat": 40.5
+  },
+  {
+    "id": "reg_usa_great_plains",
+    "name": "USA Great Plains",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_canada_west",
+      "reg_usa_mountain",
+      "reg_usa_midwest",
+      "reg_usa_south_central"
+    ],
+    "population": 22,
+    "prosperity": 65,
+    "unrest": 25,
+    "controlling_faction_id": "fac_bureau",
+    "lon": -98,
+    "lat": 42.5
+  },
+  {
+    "id": "reg_usa_midwest",
+    "name": "USA Midwest",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_canada_east",
+      "reg_usa_great_plains",
+      "reg_usa_northeast",
+      "reg_usa_southeast",
+      "reg_usa_south_central"
+    ],
+    "population": 68,
+    "prosperity": 66,
+    "unrest": 26,
+    "controlling_faction_id": "fac_bureau",
+    "lon": -86.5,
+    "lat": 42
+  },
+  {
+    "id": "reg_usa_northeast",
+    "name": "USA Northeast",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_canada_east",
+      "reg_usa_midwest",
+      "reg_usa_southeast"
+    ],
+    "population": 60,
+    "prosperity": 78,
+    "unrest": 24,
+    "controlling_faction_id": "fac_bureau",
+    "lon": -73.5,
+    "lat": 43.5
+  },
+  {
+    "id": "reg_usa_south_central",
+    "name": "USA South Central",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_usa_pacific",
+      "reg_usa_mountain",
+      "reg_usa_great_plains",
+      "reg_usa_midwest",
+      "reg_usa_southeast",
+      "reg_mexico"
+    ],
+    "population": 45,
+    "prosperity": 62,
+    "unrest": 30,
+    "controlling_faction_id": "fac_bureau",
+    "lon": -93.5,
+    "lat": 30.5
+  },
+  {
+    "id": "reg_usa_southeast",
+    "name": "USA Southeast",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_usa_midwest",
+      "reg_usa_northeast",
+      "reg_usa_south_central",
+      "reg_caribbean_west"
+    ],
+    "population": 58,
+    "prosperity": 60,
+    "unrest": 32,
+    "controlling_faction_id": "fac_bureau",
+    "lon": -81,
+    "lat": 30.5
+  },
+  {
+    "id": "reg_mexico",
+    "name": "Mexico",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_usa_pacific",
+      "reg_usa_mountain",
+      "reg_usa_south_central",
+      "reg_central_america",
+      "reg_caribbean_west"
+    ],
+    "population": 128,
+    "prosperity": 50,
+    "unrest": 48,
+    "controlling_faction_id": "fac_bureau",
+    "lon": -102.5,
+    "lat": 23
+  },
+  {
+    "id": "reg_central_america",
+    "name": "Central America",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_mexico",
+      "reg_caribbean_west",
+      "reg_caribbean_east",
+      "reg_colombia_venezuela"
+    ],
+    "population": 50,
+    "prosperity": 42,
+    "unrest": 52,
+    "controlling_faction_id": "fac_bureau",
+    "lon": -84.5,
+    "lat": 13
+  },
+  {
+    "id": "reg_caribbean_west",
+    "name": "Caribbean West",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_usa_southeast",
+      "reg_mexico",
+      "reg_central_america",
+      "reg_caribbean_east",
+      "reg_colombia_venezuela"
+    ],
+    "population": 30,
+    "prosperity": 45,
+    "unrest": 42,
+    "controlling_faction_id": "fac_bureau",
+    "lon": -81,
+    "lat": 22
+  },
+  {
+    "id": "reg_caribbean_east",
+    "name": "Caribbean East",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_caribbean_west",
+      "reg_central_america",
+      "reg_colombia_venezuela",
+      "reg_guiana"
+    ],
+    "population": 15,
+    "prosperity": 40,
+    "unrest": 45,
+    "controlling_faction_id": "fac_church",
+    "lon": -66,
+    "lat": 18
+  },
+  {
+    "id": "reg_colombia_venezuela",
+    "name": "Colombia & Venezuela",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_central_america",
+      "reg_caribbean_west",
+      "reg_caribbean_east",
+      "reg_guiana",
+      "reg_brazil_north",
+      "reg_ecuador_peru"
+    ],
+    "population": 90,
+    "prosperity": 48,
+    "unrest": 52,
+    "controlling_faction_id": "fac_bureau",
+    "lon": -71,
+    "lat": 6
+  },
+  {
+    "id": "reg_guiana",
+    "name": "Guiana",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_colombia_venezuela",
+      "reg_caribbean_east",
+      "reg_brazil_north"
+    ],
+    "population": 2,
+    "prosperity": 42,
+    "unrest": 35,
+    "controlling_faction_id": "fac_bureau",
+    "lon": -54.5,
+    "lat": 3
+  },
+  {
+    "id": "reg_ecuador_peru",
+    "name": "Ecuador & Peru",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_colombia_venezuela",
+      "reg_bolivia",
+      "reg_chile",
+      "reg_brazil_north"
+    ],
+    "population": 50,
+    "prosperity": 44,
+    "unrest": 46,
+    "controlling_faction_id": "fac_bureau",
+    "lon": -75,
+    "lat": -7
+  },
+  {
+    "id": "reg_bolivia",
+    "name": "Bolivia",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_ecuador_peru",
+      "reg_brazil_central",
+      "reg_argentina",
+      "reg_chile"
+    ],
+    "population": 12,
+    "prosperity": 38,
+    "unrest": 50,
+    "controlling_faction_id": "fac_church",
+    "lon": -62.5,
+    "lat": -16.5
+  },
+  {
+    "id": "reg_brazil_north",
+    "name": "Brazil North",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_colombia_venezuela",
+      "reg_guiana",
+      "reg_ecuador_peru",
+      "reg_brazil_northeast",
+      "reg_brazil_central"
+    ],
+    "population": 20,
+    "prosperity": 40,
+    "unrest": 42,
+    "controlling_faction_id": "fac_bureau",
+    "lon": -57,
+    "lat": 0
+  },
+  {
+    "id": "reg_brazil_northeast",
+    "name": "Brazil Northeast",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_brazil_north",
+      "reg_brazil_central"
+    ],
+    "population": 55,
+    "prosperity": 36,
+    "unrest": 48,
+    "controlling_faction_id": "fac_bureau",
+    "lon": -42.5,
+    "lat": -9.5
+  },
+  {
+    "id": "reg_brazil_central",
+    "name": "Brazil Central",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_brazil_north",
+      "reg_brazil_northeast",
+      "reg_brazil_south",
+      "reg_ecuador_peru",
+      "reg_bolivia"
+    ],
+    "population": 50,
+    "prosperity": 48,
+    "unrest": 40,
+    "controlling_faction_id": "fac_bureau",
+    "lon": -51,
+    "lat": -14
+  },
+  {
+    "id": "reg_brazil_south",
+    "name": "Brazil South",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_brazil_central",
+      "reg_argentina"
+    ],
+    "population": 90,
+    "prosperity": 58,
+    "unrest": 35,
+    "controlling_faction_id": "fac_bureau",
+    "lon": -50.5,
+    "lat": -27
+  },
+  {
+    "id": "reg_argentina",
+    "name": "Argentina",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_brazil_south",
+      "reg_brazil_central",
+      "reg_bolivia",
+      "reg_chile",
+      "reg_antarctica"
+    ],
+    "population": 46,
+    "prosperity": 52,
+    "unrest": 42,
+    "controlling_faction_id": "fac_bureau",
+    "lon": -62,
+    "lat": -39
+  },
+  {
+    "id": "reg_chile",
+    "name": "Chile",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_ecuador_peru",
+      "reg_bolivia",
+      "reg_argentina",
+      "reg_antarctica"
+    ],
+    "population": 20,
+    "prosperity": 60,
+    "unrest": 30,
+    "controlling_faction_id": "fac_bureau",
+    "lon": -71,
+    "lat": -37
+  },
+  {
+    "id": "reg_iceland",
+    "name": "Iceland",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_greenland",
+      "reg_scotland",
+      "reg_norway",
+      "reg_arctic"
+    ],
+    "population": 1,
+    "prosperity": 80,
+    "unrest": 8,
+    "controlling_faction_id": "fac_bureau",
+    "lon": -19,
+    "lat": 65
+  },
+  {
+    "id": "reg_ireland",
+    "name": "Ireland",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_england_wales",
+      "reg_scotland"
+    ],
+    "population": 5,
+    "prosperity": 78,
+    "unrest": 14,
+    "controlling_faction_id": "fac_bureau",
+    "lon": -8,
+    "lat": 53.5
+  },
+  {
+    "id": "reg_england_wales",
+    "name": "England & Wales",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_ireland",
+      "reg_scotland",
+      "reg_netherlands_belgium",
+      "reg_france_north"
+    ],
+    "population": 60,
+    "prosperity": 76,
+    "unrest": 20,
+    "controlling_faction_id": "fac_bureau",
+    "lon": -1.5,
+    "lat": 53
+  },
+  {
+    "id": "reg_scotland",
+    "name": "Scotland",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_ireland",
+      "reg_england_wales",
+      "reg_norway",
+      "reg_iceland"
+    ],
+    "population": 6,
+    "prosperity": 72,
+    "unrest": 18,
+    "controlling_faction_id": "fac_bureau",
+    "lon": -3,
+    "lat": 58
+  },
+  {
+    "id": "reg_norway",
+    "name": "Norway",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_scotland",
+      "reg_iceland",
+      "reg_sweden",
+      "reg_finland",
+      "reg_russia_northwest",
+      "reg_arctic"
+    ],
+    "population": 5,
+    "prosperity": 85,
+    "unrest": 10,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 19,
+    "lat": 64.5
+  },
+  {
+    "id": "reg_sweden",
+    "name": "Sweden",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_norway",
+      "reg_finland",
+      "reg_denmark",
+      "reg_baltics"
+    ],
+    "population": 10,
+    "prosperity": 84,
+    "unrest": 12,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 19,
+    "lat": 62.5
+  },
+  {
+    "id": "reg_finland",
+    "name": "Finland",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_norway",
+      "reg_sweden",
+      "reg_baltics",
+      "reg_russia_northwest"
+    ],
+    "population": 6,
+    "prosperity": 82,
+    "unrest": 10,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 28,
+    "lat": 65
+  },
+  {
+    "id": "reg_denmark",
+    "name": "Denmark",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_sweden",
+      "reg_germany_north",
+      "reg_netherlands_belgium"
+    ],
+    "population": 6,
+    "prosperity": 82,
+    "unrest": 12,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 12,
+    "lat": 56
+  },
+  {
+    "id": "reg_netherlands_belgium",
+    "name": "Netherlands & Belgium",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_england_wales",
+      "reg_denmark",
+      "reg_germany_north",
+      "reg_france_north"
+    ],
+    "population": 28,
+    "prosperity": 80,
+    "unrest": 18,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 5,
+    "lat": 52
+  },
+  {
+    "id": "reg_portugal",
+    "name": "Portugal",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_spain_north",
+      "reg_spain_south",
+      "reg_morocco"
+    ],
+    "population": 10,
+    "prosperity": 68,
+    "unrest": 20,
+    "controlling_faction_id": "fac_bureau",
+    "lon": -8,
+    "lat": 39
+  },
+  {
+    "id": "reg_spain_north",
+    "name": "Spain North",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_portugal",
+      "reg_spain_south",
+      "reg_france_south",
+      "reg_france_north"
+    ],
+    "population": 22,
+    "prosperity": 68,
+    "unrest": 28,
+    "controlling_faction_id": "fac_bureau",
+    "lon": -2,
+    "lat": 42.5
+  },
+  {
+    "id": "reg_spain_south",
+    "name": "Spain South",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_portugal",
+      "reg_spain_north",
+      "reg_morocco",
+      "reg_algeria_tunisia"
+    ],
+    "population": 24,
+    "prosperity": 65,
+    "unrest": 30,
+    "controlling_faction_id": "fac_bureau",
+    "lon": -4,
+    "lat": 38.5
+  },
+  {
+    "id": "reg_france_north",
+    "name": "France North",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_england_wales",
+      "reg_netherlands_belgium",
+      "reg_germany_north",
+      "reg_germany_south",
+      "reg_spain_north",
+      "reg_france_south"
+    ],
+    "population": 38,
+    "prosperity": 75,
+    "unrest": 25,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 2,
+    "lat": 49.5
+  },
+  {
+    "id": "reg_france_south",
+    "name": "France South",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_france_north",
+      "reg_spain_north",
+      "reg_switzerland_austria",
+      "reg_italy_north"
+    ],
+    "population": 30,
+    "prosperity": 72,
+    "unrest": 28,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 3,
+    "lat": 44.5
+  },
+  {
+    "id": "reg_germany_north",
+    "name": "Germany North",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_denmark",
+      "reg_netherlands_belgium",
+      "reg_germany_south",
+      "reg_poland",
+      "reg_france_north"
+    ],
+    "population": 42,
+    "prosperity": 78,
+    "unrest": 18,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 12,
+    "lat": 54
+  },
+  {
+    "id": "reg_germany_south",
+    "name": "Germany South",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_germany_north",
+      "reg_france_north",
+      "reg_france_south",
+      "reg_switzerland_austria",
+      "reg_czechia_slovakia"
+    ],
+    "population": 40,
+    "prosperity": 80,
+    "unrest": 16,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 12,
+    "lat": 49.5
+  },
+  {
+    "id": "reg_switzerland_austria",
+    "name": "Switzerland & Austria",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_france_south",
+      "reg_germany_south",
+      "reg_italy_north",
+      "reg_czechia_slovakia",
+      "reg_hungary_croatia"
+    ],
+    "population": 18,
+    "prosperity": 82,
+    "unrest": 14,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 12,
+    "lat": 47.5
+  },
+  {
+    "id": "reg_italy_north",
+    "name": "Italy North",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_france_south",
+      "reg_switzerland_austria",
+      "reg_italy_south",
+      "reg_hungary_croatia"
+    ],
+    "population": 28,
+    "prosperity": 74,
+    "unrest": 24,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 11.5,
+    "lat": 45.5
+  },
+  {
+    "id": "reg_italy_south",
+    "name": "Italy South",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_italy_north",
+      "reg_bulgaria_greece",
+      "reg_serbia_albania"
+    ],
+    "population": 32,
+    "prosperity": 65,
+    "unrest": 28,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 17,
+    "lat": 40
+  },
+  {
+    "id": "reg_poland",
+    "name": "Poland",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_germany_north",
+      "reg_czechia_slovakia",
+      "reg_ukraine_west",
+      "reg_belarus",
+      "reg_baltics"
+    ],
+    "population": 38,
+    "prosperity": 62,
+    "unrest": 30,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 19,
+    "lat": 52
+  },
+  {
+    "id": "reg_czechia_slovakia",
+    "name": "Czechia & Slovakia",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_germany_south",
+      "reg_switzerland_austria",
+      "reg_poland",
+      "reg_hungary_croatia",
+      "reg_ukraine_west"
+    ],
+    "population": 17,
+    "prosperity": 68,
+    "unrest": 22,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 19,
+    "lat": 48.5
+  },
+  {
+    "id": "reg_hungary_croatia",
+    "name": "Hungary & Croatia",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_switzerland_austria",
+      "reg_italy_north",
+      "reg_czechia_slovakia",
+      "reg_romania",
+      "reg_serbia_albania",
+      "reg_ukraine_west"
+    ],
+    "population": 16,
+    "prosperity": 58,
+    "unrest": 30,
+    "controlling_faction_id": "fac_church",
+    "lon": 18,
+    "lat": 46.5
+  },
+  {
+    "id": "reg_romania",
+    "name": "Romania",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_hungary_croatia",
+      "reg_ukraine_west",
+      "reg_ukraine_east",
+      "reg_bulgaria_greece",
+      "reg_serbia_albania"
+    ],
+    "population": 19,
+    "prosperity": 52,
+    "unrest": 35,
+    "controlling_faction_id": "fac_church",
+    "lon": 26,
+    "lat": 45.5
+  },
+  {
+    "id": "reg_bulgaria_greece",
+    "name": "Bulgaria & Greece",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_romania",
+      "reg_serbia_albania",
+      "reg_italy_south",
+      "reg_turkey_west",
+      "reg_egypt"
+    ],
+    "population": 18,
+    "prosperity": 55,
+    "unrest": 35,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 24,
+    "lat": 40
+  },
+  {
+    "id": "reg_serbia_albania",
+    "name": "Serbia & Albania",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_hungary_croatia",
+      "reg_romania",
+      "reg_bulgaria_greece",
+      "reg_italy_south"
+    ],
+    "population": 14,
+    "prosperity": 48,
+    "unrest": 40,
+    "controlling_faction_id": "fac_church",
+    "lon": 21,
+    "lat": 43.5
+  },
+  {
+    "id": "reg_ukraine_west",
+    "name": "Ukraine West",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_poland",
+      "reg_czechia_slovakia",
+      "reg_hungary_croatia",
+      "reg_romania",
+      "reg_ukraine_east",
+      "reg_belarus"
+    ],
+    "population": 22,
+    "prosperity": 42,
+    "unrest": 62,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 27,
+    "lat": 48
+  },
+  {
+    "id": "reg_ukraine_east",
+    "name": "Ukraine East",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_ukraine_west",
+      "reg_romania",
+      "reg_belarus",
+      "reg_russia_south",
+      "reg_caucasus"
+    ],
+    "population": 22,
+    "prosperity": 38,
+    "unrest": 70,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 36,
+    "lat": 48
+  },
+  {
+    "id": "reg_belarus",
+    "name": "Belarus",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_poland",
+      "reg_ukraine_west",
+      "reg_ukraine_east",
+      "reg_baltics",
+      "reg_russia_northwest"
+    ],
+    "population": 9,
+    "prosperity": 44,
+    "unrest": 55,
+    "controlling_faction_id": "fac_church",
+    "lon": 29,
+    "lat": 54
+  },
+  {
+    "id": "reg_baltics",
+    "name": "Baltics",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_sweden",
+      "reg_finland",
+      "reg_poland",
+      "reg_belarus",
+      "reg_russia_northwest"
+    ],
+    "population": 6,
+    "prosperity": 68,
+    "unrest": 28,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 25,
+    "lat": 57
+  },
+  {
+    "id": "reg_russia_northwest",
+    "name": "Russia Northwest",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_norway",
+      "reg_finland",
+      "reg_baltics",
+      "reg_belarus",
+      "reg_russia_volga",
+      "reg_russia_south",
+      "reg_siberia_west",
+      "reg_arctic"
+    ],
+    "population": 35,
+    "prosperity": 50,
+    "unrest": 42,
+    "controlling_faction_id": "fac_church",
+    "lon": 40,
+    "lat": 64
+  },
+  {
+    "id": "reg_russia_volga",
+    "name": "Russia Volga",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_russia_northwest",
+      "reg_russia_south",
+      "reg_kazakhstan",
+      "reg_siberia_west"
+    ],
+    "population": 30,
+    "prosperity": 48,
+    "unrest": 45,
+    "controlling_faction_id": "fac_church",
+    "lon": 51,
+    "lat": 54
+  },
+  {
+    "id": "reg_russia_south",
+    "name": "Russia South",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_ukraine_east",
+      "reg_russia_northwest",
+      "reg_russia_volga",
+      "reg_caucasus",
+      "reg_kazakhstan"
+    ],
+    "population": 25,
+    "prosperity": 46,
+    "unrest": 48,
+    "controlling_faction_id": "fac_church",
+    "lon": 46,
+    "lat": 47
+  },
+  {
+    "id": "reg_caucasus",
+    "name": "Caucasus",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_ukraine_east",
+      "reg_russia_south",
+      "reg_georgia_armenia",
+      "reg_azerbaijan",
+      "reg_turkey_east",
+      "reg_iran_north"
+    ],
+    "population": 7,
+    "prosperity": 42,
+    "unrest": 55,
+    "controlling_faction_id": "fac_church",
+    "lon": 45,
+    "lat": 41
+  },
+  {
+    "id": "reg_georgia_armenia",
+    "name": "Georgia & Armenia",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_caucasus",
+      "reg_azerbaijan",
+      "reg_turkey_east",
+      "reg_iran_north"
+    ],
+    "population": 8,
+    "prosperity": 45,
+    "unrest": 48,
+    "controlling_faction_id": "fac_church",
+    "lon": 44,
+    "lat": 41
+  },
+  {
+    "id": "reg_azerbaijan",
+    "name": "Azerbaijan",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_caucasus",
+      "reg_georgia_armenia",
+      "reg_iran_north",
+      "reg_iran_central"
+    ],
+    "population": 10,
+    "prosperity": 50,
+    "unrest": 45,
+    "controlling_faction_id": "fac_church",
+    "lon": 49,
+    "lat": 41
+  },
+  {
+    "id": "reg_kazakhstan",
+    "name": "Kazakhstan",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_russia_south",
+      "reg_russia_volga",
+      "reg_siberia_west",
+      "reg_uzbekistan_tajikistan",
+      "reg_turkmenistan",
+      "reg_china_xinjiang",
+      "reg_mongolia"
+    ],
+    "population": 19,
+    "prosperity": 50,
+    "unrest": 38,
+    "controlling_faction_id": "fac_church",
+    "lon": 67,
+    "lat": 48
+  },
+  {
+    "id": "reg_uzbekistan_tajikistan",
+    "name": "Uzbekistan & Tajikistan",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_kazakhstan",
+      "reg_turkmenistan",
+      "reg_afghanistan",
+      "reg_china_xinjiang"
+    ],
+    "population": 50,
+    "prosperity": 38,
+    "unrest": 45,
+    "controlling_faction_id": "fac_church",
+    "lon": 66,
+    "lat": 40
+  },
+  {
+    "id": "reg_turkmenistan",
+    "name": "Turkmenistan",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_kazakhstan",
+      "reg_uzbekistan_tajikistan",
+      "reg_iran_north",
+      "reg_afghanistan"
+    ],
+    "population": 6,
+    "prosperity": 42,
+    "unrest": 40,
+    "controlling_faction_id": "fac_church",
+    "lon": 57,
+    "lat": 37
+  },
+  {
+    "id": "reg_siberia_west",
+    "name": "Siberia West",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_russia_northwest",
+      "reg_russia_volga",
+      "reg_kazakhstan",
+      "reg_siberia_central",
+      "reg_russia_yakutia",
+      "reg_arctic"
+    ],
+    "population": 15,
+    "prosperity": 40,
+    "unrest": 38,
+    "controlling_faction_id": "fac_church",
+    "lon": 75,
+    "lat": 62.5
+  },
+  {
+    "id": "reg_siberia_central",
+    "name": "Siberia Central",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_siberia_west",
+      "reg_kazakhstan",
+      "reg_mongolia",
+      "reg_china_northeast",
+      "reg_siberia_east",
+      "reg_russia_yakutia",
+      "reg_arctic"
+    ],
+    "population": 8,
+    "prosperity": 38,
+    "unrest": 35,
+    "controlling_faction_id": "fac_church",
+    "lon": 104,
+    "lat": 63.5
+  },
+  {
+    "id": "reg_siberia_east",
+    "name": "Siberia East",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_siberia_central",
+      "reg_russia_yakutia",
+      "reg_russia_far_east",
+      "reg_china_northeast",
+      "reg_arctic"
+    ],
+    "population": 5,
+    "prosperity": 35,
+    "unrest": 32,
+    "controlling_faction_id": "fac_church",
+    "lon": 141.5,
+    "lat": 63.5
+  },
+  {
+    "id": "reg_russia_far_east",
+    "name": "Russia Far East",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_siberia_east",
+      "reg_russia_yakutia",
+      "reg_alaska",
+      "reg_korea_north",
+      "reg_japan_north",
+      "reg_arctic"
+    ],
+    "population": 6,
+    "prosperity": 38,
+    "unrest": 38,
+    "controlling_faction_id": "fac_church",
+    "lon": 155,
+    "lat": 50
+  },
+  {
+    "id": "reg_russia_yakutia",
+    "name": "Russia Yakutia",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_siberia_west",
+      "reg_siberia_central",
+      "reg_siberia_east",
+      "reg_russia_far_east",
+      "reg_arctic"
+    ],
+    "population": 1,
+    "prosperity": 32,
+    "unrest": 28,
+    "controlling_faction_id": "fac_church",
+    "lon": 129,
+    "lat": 68
+  },
+  {
+    "id": "reg_turkey_west",
+    "name": "Turkey West",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_bulgaria_greece",
+      "reg_turkey_east",
+      "reg_syria_lebanon",
+      "reg_egypt"
+    ],
+    "population": 42,
+    "prosperity": 55,
+    "unrest": 40,
+    "controlling_faction_id": "fac_church",
+    "lon": 31,
+    "lat": 39
+  },
+  {
+    "id": "reg_turkey_east",
+    "name": "Turkey East",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_turkey_west",
+      "reg_caucasus",
+      "reg_georgia_armenia",
+      "reg_iran_north",
+      "reg_iraq",
+      "reg_syria_lebanon"
+    ],
+    "population": 42,
+    "prosperity": 50,
+    "unrest": 45,
+    "controlling_faction_id": "fac_church",
+    "lon": 41,
+    "lat": 39
+  },
+  {
+    "id": "reg_syria_lebanon",
+    "name": "Syria & Lebanon",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_turkey_west",
+      "reg_turkey_east",
+      "reg_iraq",
+      "reg_israel_jordan",
+      "reg_egypt"
+    ],
+    "population": 30,
+    "prosperity": 22,
+    "unrest": 80,
+    "controlling_faction_id": "fac_church",
+    "lon": 38,
+    "lat": 35
+  },
+  {
+    "id": "reg_israel_jordan",
+    "name": "Israel & Jordan",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_syria_lebanon",
+      "reg_iraq",
+      "reg_saudi_arabia",
+      "reg_egypt"
+    ],
+    "population": 20,
+    "prosperity": 60,
+    "unrest": 55,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 36,
+    "lat": 31
+  },
+  {
+    "id": "reg_iraq",
+    "name": "Iraq",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_turkey_east",
+      "reg_syria_lebanon",
+      "reg_israel_jordan",
+      "reg_iran_north",
+      "reg_iran_central",
+      "reg_saudi_arabia"
+    ],
+    "population": 42,
+    "prosperity": 40,
+    "unrest": 62,
+    "controlling_faction_id": "fac_church",
+    "lon": 44,
+    "lat": 33
+  },
+  {
+    "id": "reg_iran_north",
+    "name": "Iran North",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_caucasus",
+      "reg_georgia_armenia",
+      "reg_azerbaijan",
+      "reg_turkey_east",
+      "reg_turkmenistan",
+      "reg_iran_central",
+      "reg_iraq"
+    ],
+    "population": 40,
+    "prosperity": 42,
+    "unrest": 58,
+    "controlling_faction_id": "fac_church",
+    "lon": 53,
+    "lat": 38
+  },
+  {
+    "id": "reg_iran_central",
+    "name": "Iran Central",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_iran_north",
+      "reg_azerbaijan",
+      "reg_iraq",
+      "reg_iran_south",
+      "reg_afghanistan"
+    ],
+    "population": 40,
+    "prosperity": 38,
+    "unrest": 60,
+    "controlling_faction_id": "fac_church",
+    "lon": 58,
+    "lat": 32
+  },
+  {
+    "id": "reg_iran_south",
+    "name": "Iran South",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_iran_central",
+      "reg_afghanistan",
+      "reg_pakistan",
+      "reg_oman_uae",
+      "reg_saudi_arabia"
+    ],
+    "population": 25,
+    "prosperity": 45,
+    "unrest": 55,
+    "controlling_faction_id": "fac_church",
+    "lon": 56,
+    "lat": 29
+  },
+  {
+    "id": "reg_saudi_arabia",
+    "name": "Saudi Arabia",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_israel_jordan",
+      "reg_iraq",
+      "reg_iran_south",
+      "reg_yemen",
+      "reg_oman_uae",
+      "reg_egypt"
+    ],
+    "population": 36,
+    "prosperity": 65,
+    "unrest": 35,
+    "controlling_faction_id": "fac_church",
+    "lon": 44,
+    "lat": 23
+  },
+  {
+    "id": "reg_yemen",
+    "name": "Yemen",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_saudi_arabia",
+      "reg_oman_uae",
+      "reg_somalia"
+    ],
+    "population": 32,
+    "prosperity": 18,
+    "unrest": 82,
+    "controlling_faction_id": "fac_church",
+    "lon": 49,
+    "lat": 16
+  },
+  {
+    "id": "reg_oman_uae",
+    "name": "Oman & UAE",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_saudi_arabia",
+      "reg_iran_south",
+      "reg_yemen",
+      "reg_pakistan"
+    ],
+    "population": 12,
+    "prosperity": 72,
+    "unrest": 25,
+    "controlling_faction_id": "fac_church",
+    "lon": 57,
+    "lat": 20
+  },
+  {
+    "id": "reg_egypt",
+    "name": "Egypt",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_bulgaria_greece",
+      "reg_turkey_west",
+      "reg_syria_lebanon",
+      "reg_israel_jordan",
+      "reg_saudi_arabia",
+      "reg_libya",
+      "reg_sudan"
+    ],
+    "population": 106,
+    "prosperity": 38,
+    "unrest": 52,
+    "controlling_faction_id": "fac_church",
+    "lon": 31,
+    "lat": 26
+  },
+  {
+    "id": "reg_libya",
+    "name": "Libya",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_egypt",
+      "reg_algeria_tunisia",
+      "reg_chad",
+      "reg_sudan"
+    ],
+    "population": 7,
+    "prosperity": 30,
+    "unrest": 68,
+    "controlling_faction_id": "fac_church",
+    "lon": 18,
+    "lat": 27
+  },
+  {
+    "id": "reg_algeria_tunisia",
+    "name": "Algeria & Tunisia",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_spain_south",
+      "reg_morocco",
+      "reg_libya",
+      "reg_mauritania_sahara",
+      "reg_sahel_north"
+    ],
+    "population": 50,
+    "prosperity": 42,
+    "unrest": 48,
+    "controlling_faction_id": "fac_church",
+    "lon": 6,
+    "lat": 29
+  },
+  {
+    "id": "reg_morocco",
+    "name": "Morocco",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_portugal",
+      "reg_spain_south",
+      "reg_algeria_tunisia",
+      "reg_mauritania_sahara"
+    ],
+    "population": 38,
+    "prosperity": 46,
+    "unrest": 42,
+    "controlling_faction_id": "fac_church",
+    "lon": -5,
+    "lat": 33
+  },
+  {
+    "id": "reg_mauritania_sahara",
+    "name": "Mauritania & W. Sahara",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_morocco",
+      "reg_algeria_tunisia",
+      "reg_sahel_north",
+      "reg_senegal_guinea"
+    ],
+    "population": 5,
+    "prosperity": 28,
+    "unrest": 38,
+    "controlling_faction_id": "fac_church",
+    "lon": -10,
+    "lat": 24
+  },
+  {
+    "id": "reg_sahel_north",
+    "name": "Sahel North",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_algeria_tunisia",
+      "reg_mauritania_sahara",
+      "reg_chad",
+      "reg_senegal_guinea",
+      "reg_nigeria"
+    ],
+    "population": 50,
+    "prosperity": 22,
+    "unrest": 58,
+    "controlling_faction_id": "fac_church",
+    "lon": 10,
+    "lat": 16
+  },
+  {
+    "id": "reg_chad",
+    "name": "Chad",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_libya",
+      "reg_sahel_north",
+      "reg_sudan",
+      "reg_south_sudan",
+      "reg_nigeria",
+      "reg_cameroon_gabon"
+    ],
+    "population": 18,
+    "prosperity": 20,
+    "unrest": 62,
+    "controlling_faction_id": "fac_church",
+    "lon": 19,
+    "lat": 14
+  },
+  {
+    "id": "reg_sudan",
+    "name": "Sudan",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_egypt",
+      "reg_libya",
+      "reg_chad",
+      "reg_south_sudan",
+      "reg_ethiopia"
+    ],
+    "population": 46,
+    "prosperity": 28,
+    "unrest": 60,
+    "controlling_faction_id": "fac_church",
+    "lon": 30,
+    "lat": 16
+  },
+  {
+    "id": "reg_south_sudan",
+    "name": "South Sudan",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_chad",
+      "reg_sudan",
+      "reg_ethiopia",
+      "reg_uganda",
+      "reg_drc_north",
+      "reg_cameroon_gabon"
+    ],
+    "population": 12,
+    "prosperity": 18,
+    "unrest": 70,
+    "controlling_faction_id": "fac_church",
+    "lon": 32,
+    "lat": 8
+  },
+  {
+    "id": "reg_ethiopia",
+    "name": "Ethiopia",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_sudan",
+      "reg_south_sudan",
+      "reg_somalia",
+      "reg_kenya",
+      "reg_uganda"
+    ],
+    "population": 125,
+    "prosperity": 28,
+    "unrest": 52,
+    "controlling_faction_id": "fac_church",
+    "lon": 41,
+    "lat": 10
+  },
+  {
+    "id": "reg_somalia",
+    "name": "Somalia",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_ethiopia",
+      "reg_kenya",
+      "reg_yemen"
+    ],
+    "population": 18,
+    "prosperity": 15,
+    "unrest": 78,
+    "controlling_faction_id": "fac_church",
+    "lon": 47,
+    "lat": 6
+  },
+  {
+    "id": "reg_kenya",
+    "name": "Kenya",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_ethiopia",
+      "reg_somalia",
+      "reg_tanzania",
+      "reg_uganda"
+    ],
+    "population": 55,
+    "prosperity": 38,
+    "unrest": 42,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 39,
+    "lat": 0
+  },
+  {
+    "id": "reg_tanzania",
+    "name": "Tanzania",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_kenya",
+      "reg_uganda",
+      "reg_drc_south",
+      "reg_zambia",
+      "reg_mozambique_zimbabwe",
+      "reg_madagascar"
+    ],
+    "population": 65,
+    "prosperity": 35,
+    "unrest": 38,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 35,
+    "lat": -8
+  },
+  {
+    "id": "reg_uganda",
+    "name": "Uganda",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_south_sudan",
+      "reg_ethiopia",
+      "reg_kenya",
+      "reg_tanzania",
+      "reg_drc_north"
+    ],
+    "population": 48,
+    "prosperity": 35,
+    "unrest": 42,
+    "controlling_faction_id": "fac_church",
+    "lon": 33,
+    "lat": 1
+  },
+  {
+    "id": "reg_drc_north",
+    "name": "DRC North",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_south_sudan",
+      "reg_cameroon_gabon",
+      "reg_congo_eq_guinea",
+      "reg_drc_south",
+      "reg_uganda"
+    ],
+    "population": 50,
+    "prosperity": 22,
+    "unrest": 62,
+    "controlling_faction_id": "fac_church",
+    "lon": 25,
+    "lat": 2
+  },
+  {
+    "id": "reg_drc_south",
+    "name": "DRC South",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_drc_north",
+      "reg_congo_eq_guinea",
+      "reg_angola",
+      "reg_zambia",
+      "reg_tanzania"
+    ],
+    "population": 50,
+    "prosperity": 20,
+    "unrest": 65,
+    "controlling_faction_id": "fac_church",
+    "lon": 24,
+    "lat": -8
+  },
+  {
+    "id": "reg_angola",
+    "name": "Angola",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_drc_south",
+      "reg_congo_eq_guinea",
+      "reg_zambia",
+      "reg_namibia_botswana"
+    ],
+    "population": 35,
+    "prosperity": 32,
+    "unrest": 50,
+    "controlling_faction_id": "fac_church",
+    "lon": 17,
+    "lat": -12
+  },
+  {
+    "id": "reg_zambia",
+    "name": "Zambia",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_drc_south",
+      "reg_angola",
+      "reg_namibia_botswana",
+      "reg_zimbabwe_mozambique",
+      "reg_tanzania"
+    ],
+    "population": 20,
+    "prosperity": 30,
+    "unrest": 45,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 28,
+    "lat": -13
+  },
+  {
+    "id": "reg_zimbabwe_mozambique",
+    "name": "Zimbabwe & Mozambique",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_zambia",
+      "reg_tanzania",
+      "reg_south_africa",
+      "reg_namibia_botswana",
+      "reg_madagascar"
+    ],
+    "population": 38,
+    "prosperity": 28,
+    "unrest": 50,
+    "controlling_faction_id": "fac_church",
+    "lon": 35,
+    "lat": -20
+  },
+  {
+    "id": "reg_namibia_botswana",
+    "name": "Namibia & Botswana",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_angola",
+      "reg_zambia",
+      "reg_zimbabwe_mozambique",
+      "reg_south_africa"
+    ],
+    "population": 5,
+    "prosperity": 45,
+    "unrest": 28,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 21,
+    "lat": -23
+  },
+  {
+    "id": "reg_south_africa",
+    "name": "South Africa",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_namibia_botswana",
+      "reg_zimbabwe_mozambique",
+      "reg_madagascar",
+      "reg_antarctica"
+    ],
+    "population": 60,
+    "prosperity": 52,
+    "unrest": 48,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 25,
+    "lat": -31
+  },
+  {
+    "id": "reg_senegal_guinea",
+    "name": "Senegal & Guinea",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_mauritania_sahara",
+      "reg_sahel_north",
+      "reg_liberia_ivory_coast"
+    ],
+    "population": 30,
+    "prosperity": 32,
+    "unrest": 45,
+    "controlling_faction_id": "fac_bureau",
+    "lon": -13,
+    "lat": 12
+  },
+  {
+    "id": "reg_liberia_ivory_coast",
+    "name": "Liberia & Ivory Coast",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_senegal_guinea",
+      "reg_ghana_togo",
+      "reg_nigeria"
+    ],
+    "population": 30,
+    "prosperity": 30,
+    "unrest": 48,
+    "controlling_faction_id": "fac_bureau",
+    "lon": -6,
+    "lat": 7
+  },
+  {
+    "id": "reg_ghana_togo",
+    "name": "Ghana & Togo",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_liberia_ivory_coast",
+      "reg_nigeria",
+      "reg_sahel_north"
+    ],
+    "population": 38,
+    "prosperity": 35,
+    "unrest": 40,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 1,
+    "lat": 7
+  },
+  {
+    "id": "reg_nigeria",
+    "name": "Nigeria",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_sahel_north",
+      "reg_ghana_togo",
+      "reg_liberia_ivory_coast",
+      "reg_cameroon_gabon",
+      "reg_chad"
+    ],
+    "population": 225,
+    "prosperity": 38,
+    "unrest": 55,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 9,
+    "lat": 8
+  },
+  {
+    "id": "reg_cameroon_gabon",
+    "name": "Cameroon & Gabon",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_nigeria",
+      "reg_chad",
+      "reg_south_sudan",
+      "reg_drc_north",
+      "reg_congo_eq_guinea"
+    ],
+    "population": 30,
+    "prosperity": 38,
+    "unrest": 45,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 12,
+    "lat": 2
+  },
+  {
+    "id": "reg_congo_eq_guinea",
+    "name": "Congo & Eq. Guinea",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_cameroon_gabon",
+      "reg_drc_north",
+      "reg_drc_south",
+      "reg_angola"
+    ],
+    "population": 12,
+    "prosperity": 35,
+    "unrest": 48,
+    "controlling_faction_id": "fac_church",
+    "lon": 16,
+    "lat": -2
+  },
+  {
+    "id": "reg_madagascar",
+    "name": "Madagascar",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_tanzania",
+      "reg_zimbabwe_mozambique",
+      "reg_south_africa"
+    ],
+    "population": 28,
+    "prosperity": 28,
+    "unrest": 45,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 47,
+    "lat": -19
+  },
+  {
+    "id": "reg_afghanistan",
+    "name": "Afghanistan",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_turkmenistan",
+      "reg_uzbekistan_tajikistan",
+      "reg_iran_central",
+      "reg_pakistan",
+      "reg_china_xinjiang"
+    ],
+    "population": 40,
+    "prosperity": 18,
+    "unrest": 78,
+    "controlling_faction_id": "fac_church",
+    "lon": 68,
+    "lat": 33
+  },
+  {
+    "id": "reg_pakistan",
+    "name": "Pakistan",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_iran_south",
+      "reg_oman_uae",
+      "reg_afghanistan",
+      "reg_india_north",
+      "reg_india_west",
+      "reg_china_tibet"
+    ],
+    "population": 240,
+    "prosperity": 32,
+    "unrest": 62,
+    "controlling_faction_id": "fac_church",
+    "lon": 68,
+    "lat": 26
+  },
+  {
+    "id": "reg_india_north",
+    "name": "India North",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_pakistan",
+      "reg_nepal_bhutan",
+      "reg_china_tibet",
+      "reg_india_central",
+      "reg_india_east"
+    ],
+    "population": 400,
+    "prosperity": 52,
+    "unrest": 35,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 81,
+    "lat": 30
+  },
+  {
+    "id": "reg_india_central",
+    "name": "India Central",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_india_north",
+      "reg_india_west",
+      "reg_india_south",
+      "reg_india_east"
+    ],
+    "population": 250,
+    "prosperity": 48,
+    "unrest": 32,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 77,
+    "lat": 22
+  },
+  {
+    "id": "reg_india_west",
+    "name": "India West",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_pakistan",
+      "reg_india_north",
+      "reg_india_central",
+      "reg_india_south"
+    ],
+    "population": 150,
+    "prosperity": 55,
+    "unrest": 30,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 72,
+    "lat": 18
+  },
+  {
+    "id": "reg_india_south",
+    "name": "India South",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_india_central",
+      "reg_india_west",
+      "reg_india_east",
+      "reg_sri_lanka"
+    ],
+    "population": 250,
+    "prosperity": 58,
+    "unrest": 28,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 76,
+    "lat": 13
+  },
+  {
+    "id": "reg_india_east",
+    "name": "India East",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_india_north",
+      "reg_india_central",
+      "reg_india_south",
+      "reg_nepal_bhutan",
+      "reg_bangladesh",
+      "reg_myanmar"
+    ],
+    "population": 200,
+    "prosperity": 45,
+    "unrest": 38,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 83,
+    "lat": 22
+  },
+  {
+    "id": "reg_nepal_bhutan",
+    "name": "Nepal & Bhutan",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_india_north",
+      "reg_india_east",
+      "reg_china_tibet",
+      "reg_bangladesh"
+    ],
+    "population": 32,
+    "prosperity": 38,
+    "unrest": 30,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 86,
+    "lat": 28
+  },
+  {
+    "id": "reg_bangladesh",
+    "name": "Bangladesh",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_india_east",
+      "reg_nepal_bhutan",
+      "reg_myanmar"
+    ],
+    "population": 172,
+    "prosperity": 38,
+    "unrest": 42,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 91,
+    "lat": 23
+  },
+  {
+    "id": "reg_sri_lanka",
+    "name": "Sri Lanka",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_india_south",
+      "reg_india_east",
+      "reg_malaysia"
+    ],
+    "population": 22,
+    "prosperity": 48,
+    "unrest": 32,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 81,
+    "lat": 8
+  },
+  {
+    "id": "reg_myanmar",
+    "name": "Myanmar",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_india_east",
+      "reg_bangladesh",
+      "reg_china_sichuan",
+      "reg_thailand_laos",
+      "reg_indochina_coast"
+    ],
+    "population": 55,
+    "prosperity": 35,
+    "unrest": 55,
+    "controlling_faction_id": "fac_church",
+    "lon": 97,
+    "lat": 21
+  },
+  {
+    "id": "reg_mongolia",
+    "name": "Mongolia",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_russia_yakutia",
+      "reg_siberia_central",
+      "reg_kazakhstan",
+      "reg_china_xinjiang",
+      "reg_china_north",
+      "reg_inner_mongolia",
+      "reg_siberia_east"
+    ],
+    "population": 3,
+    "prosperity": 40,
+    "unrest": 25,
+    "controlling_faction_id": "fac_church",
+    "lon": 104,
+    "lat": 45
+  },
+  {
+    "id": "reg_china_xinjiang",
+    "name": "China Xinjiang",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_kazakhstan",
+      "reg_uzbekistan_tajikistan",
+      "reg_afghanistan",
+      "reg_pakistan",
+      "reg_china_tibet",
+      "reg_china_north",
+      "reg_mongolia"
+    ],
+    "population": 25,
+    "prosperity": 38,
+    "unrest": 55,
+    "controlling_faction_id": "fac_church",
+    "lon": 82,
+    "lat": 41
+  },
+  {
+    "id": "reg_china_tibet",
+    "name": "China Tibet",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_china_xinjiang",
+      "reg_pakistan",
+      "reg_nepal_bhutan",
+      "reg_india_north",
+      "reg_india_east",
+      "reg_myanmar",
+      "reg_china_sichuan",
+      "reg_china_north"
+    ],
+    "population": 4,
+    "prosperity": 30,
+    "unrest": 60,
+    "controlling_faction_id": "fac_church",
+    "lon": 91,
+    "lat": 31
+  },
+  {
+    "id": "reg_china_northeast",
+    "name": "China Northeast",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_siberia_central",
+      "reg_siberia_east",
+      "reg_russia_far_east",
+      "reg_mongolia",
+      "reg_inner_mongolia",
+      "reg_china_north",
+      "reg_korea_north"
+    ],
+    "population": 110,
+    "prosperity": 55,
+    "unrest": 28,
+    "controlling_faction_id": "fac_church",
+    "lon": 127,
+    "lat": 47
+  },
+  {
+    "id": "reg_china_north",
+    "name": "China North",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_mongolia",
+      "reg_inner_mongolia",
+      "reg_china_xinjiang",
+      "reg_china_tibet",
+      "reg_china_sichuan",
+      "reg_china_northeast",
+      "reg_china_east"
+    ],
+    "population": 350,
+    "prosperity": 62,
+    "unrest": 30,
+    "controlling_faction_id": "fac_church",
+    "lon": 114,
+    "lat": 40
+  },
+  {
+    "id": "reg_china_east",
+    "name": "China East",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_china_north",
+      "reg_china_south",
+      "reg_china_sichuan",
+      "reg_taiwan",
+      "reg_korea_south",
+      "reg_japan_west"
+    ],
+    "population": 300,
+    "prosperity": 68,
+    "unrest": 28,
+    "controlling_faction_id": "fac_church",
+    "lon": 120,
+    "lat": 32
+  },
+  {
+    "id": "reg_china_south",
+    "name": "China South",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_china_sichuan",
+      "reg_china_east",
+      "reg_taiwan",
+      "reg_myanmar",
+      "reg_thailand_laos",
+      "reg_cambodia_vietnam"
+    ],
+    "population": 200,
+    "prosperity": 65,
+    "unrest": 30,
+    "controlling_faction_id": "fac_church",
+    "lon": 113,
+    "lat": 25
+  },
+  {
+    "id": "reg_china_sichuan",
+    "name": "China Sichuan",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_china_tibet",
+      "reg_china_north",
+      "reg_china_east",
+      "reg_china_south",
+      "reg_myanmar",
+      "reg_india_east"
+    ],
+    "population": 130,
+    "prosperity": 60,
+    "unrest": 28,
+    "controlling_faction_id": "fac_church",
+    "lon": 103,
+    "lat": 30
+  },
+  {
+    "id": "reg_inner_mongolia",
+    "name": "Inner Mongolia",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_mongolia",
+      "reg_china_northeast",
+      "reg_china_north",
+      "reg_siberia_central"
+    ],
+    "population": 28,
+    "prosperity": 45,
+    "unrest": 38,
+    "controlling_faction_id": "fac_church",
+    "lon": 114,
+    "lat": 44
+  },
+  {
+    "id": "reg_taiwan",
+    "name": "Taiwan",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_china_east",
+      "reg_china_south",
+      "reg_japan_west",
+      "reg_philippines"
+    ],
+    "population": 24,
+    "prosperity": 78,
+    "unrest": 22,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 122,
+    "lat": 24
+  },
+  {
+    "id": "reg_korea_north",
+    "name": "Korea North",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_china_northeast",
+      "reg_russia_far_east",
+      "reg_korea_south"
+    ],
+    "population": 26,
+    "prosperity": 18,
+    "unrest": 30,
+    "controlling_faction_id": "fac_church",
+    "lon": 128,
+    "lat": 41
+  },
+  {
+    "id": "reg_korea_south",
+    "name": "Korea South",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_korea_north",
+      "reg_china_east",
+      "reg_japan_west",
+      "reg_japan_central"
+    ],
+    "population": 52,
+    "prosperity": 78,
+    "unrest": 20,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 128,
+    "lat": 37
+  },
+  {
+    "id": "reg_japan_west",
+    "name": "Japan West",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_china_east",
+      "reg_taiwan",
+      "reg_korea_south",
+      "reg_japan_central"
+    ],
+    "population": 35,
+    "prosperity": 78,
+    "unrest": 16,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 132,
+    "lat": 33
+  },
+  {
+    "id": "reg_japan_central",
+    "name": "Japan Central",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_korea_south",
+      "reg_japan_west",
+      "reg_japan_north"
+    ],
+    "population": 65,
+    "prosperity": 80,
+    "unrest": 14,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 137,
+    "lat": 37
+  },
+  {
+    "id": "reg_japan_north",
+    "name": "Japan North",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_japan_central",
+      "reg_russia_far_east",
+      "reg_pacific_islands_west"
+    ],
+    "population": 25,
+    "prosperity": 72,
+    "unrest": 16,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 143,
+    "lat": 43
+  },
+  {
+    "id": "reg_thailand_laos",
+    "name": "Thailand & Laos",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_myanmar",
+      "reg_china_south",
+      "reg_cambodia_vietnam",
+      "reg_malaysia",
+      "reg_indochina_coast"
+    ],
+    "population": 100,
+    "prosperity": 52,
+    "unrest": 30,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 101,
+    "lat": 15
+  },
+  {
+    "id": "reg_cambodia_vietnam",
+    "name": "Cambodia & Vietnam",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_china_south",
+      "reg_thailand_laos",
+      "reg_malaysia",
+      "reg_philippines",
+      "reg_indochina_coast"
+    ],
+    "population": 120,
+    "prosperity": 48,
+    "unrest": 32,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 106,
+    "lat": 14
+  },
+  {
+    "id": "reg_indochina_coast",
+    "name": "Indochina Coast",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_myanmar",
+      "reg_thailand_laos",
+      "reg_cambodia_vietnam",
+      "reg_malaysia",
+      "reg_sumatra"
+    ],
+    "population": 20,
+    "prosperity": 50,
+    "unrest": 28,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 106,
+    "lat": 7
+  },
+  {
+    "id": "reg_malaysia",
+    "name": "Malaysia & Singapore",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_thailand_laos",
+      "reg_cambodia_vietnam",
+      "reg_indochina_coast",
+      "reg_sumatra",
+      "reg_borneo",
+      "reg_philippines",
+      "reg_sri_lanka"
+    ],
+    "population": 38,
+    "prosperity": 68,
+    "unrest": 22,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 110,
+    "lat": 4
+  },
+  {
+    "id": "reg_philippines",
+    "name": "Philippines",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_taiwan",
+      "reg_cambodia_vietnam",
+      "reg_malaysia",
+      "reg_borneo",
+      "reg_indonesia_east",
+      "reg_pacific_islands_west"
+    ],
+    "population": 115,
+    "prosperity": 45,
+    "unrest": 38,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 122,
+    "lat": 14
+  },
+  {
+    "id": "reg_sumatra",
+    "name": "Sumatra",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_indochina_coast",
+      "reg_malaysia",
+      "reg_java_bali",
+      "reg_borneo"
+    ],
+    "population": 58,
+    "prosperity": 45,
+    "unrest": 38,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 101,
+    "lat": 0
+  },
+  {
+    "id": "reg_java_bali",
+    "name": "Java & Bali",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_sumatra",
+      "reg_borneo",
+      "reg_indonesia_east",
+      "reg_australia_north"
+    ],
+    "population": 175,
+    "prosperity": 48,
+    "unrest": 35,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 110,
+    "lat": -7
+  },
+  {
+    "id": "reg_borneo",
+    "name": "Borneo",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_malaysia",
+      "reg_sumatra",
+      "reg_java_bali",
+      "reg_philippines",
+      "reg_indonesia_east"
+    ],
+    "population": 22,
+    "prosperity": 42,
+    "unrest": 32,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 115,
+    "lat": 2
+  },
+  {
+    "id": "reg_indonesia_east",
+    "name": "Indonesia East",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_borneo",
+      "reg_java_bali",
+      "reg_philippines",
+      "reg_new_guinea",
+      "reg_australia_north"
+    ],
+    "population": 55,
+    "prosperity": 38,
+    "unrest": 35,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 131,
+    "lat": -4
+  },
+  {
+    "id": "reg_new_guinea",
+    "name": "New Guinea",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_indonesia_east",
+      "reg_australia_north",
+      "reg_pacific_islands_west"
+    ],
+    "population": 12,
+    "prosperity": 35,
+    "unrest": 40,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 136,
+    "lat": -5
+  },
+  {
+    "id": "reg_australia_west",
+    "name": "Australia West",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_australia_north",
+      "reg_australia_south"
+    ],
+    "population": 3,
+    "prosperity": 72,
+    "unrest": 14,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 121,
+    "lat": -29
+  },
+  {
+    "id": "reg_australia_north",
+    "name": "Australia North",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_java_bali",
+      "reg_indonesia_east",
+      "reg_new_guinea",
+      "reg_australia_west",
+      "reg_australia_south"
+    ],
+    "population": 4,
+    "prosperity": 65,
+    "unrest": 18,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 135,
+    "lat": -18
+  },
+  {
+    "id": "reg_australia_south",
+    "name": "Australia South",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_australia_west",
+      "reg_australia_north",
+      "reg_new_zealand",
+      "reg_antarctica"
+    ],
+    "population": 19,
+    "prosperity": 76,
+    "unrest": 14,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 141,
+    "lat": -30
+  },
+  {
+    "id": "reg_new_zealand",
+    "name": "New Zealand",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_australia_south",
+      "reg_pacific_islands_west",
+      "reg_antarctica"
+    ],
+    "population": 5,
+    "prosperity": 80,
+    "unrest": 12,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 171,
+    "lat": -41
+  },
+  {
+    "id": "reg_pacific_islands_west",
+    "name": "Pacific Islands West",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_japan_north",
+      "reg_philippines",
+      "reg_new_guinea",
+      "reg_new_zealand",
+      "reg_pacific_islands_east"
+    ],
+    "population": 4,
+    "prosperity": 40,
+    "unrest": 25,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 156,
+    "lat": 0
+  },
+  {
+    "id": "reg_pacific_islands_east",
+    "name": "Pacific Islands East",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_pacific_islands_west",
+      "reg_new_zealand",
+      "reg_canada_west"
+    ],
+    "population": 2,
+    "prosperity": 42,
+    "unrest": 22,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 170,
+    "lat": -2
+  },
+  {
+    "id": "reg_arctic",
+    "name": "Arctic",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_alaska",
+      "reg_canada_west",
+      "reg_canada_east",
+      "reg_greenland",
+      "reg_iceland",
+      "reg_norway",
+      "reg_russia_northwest",
+      "reg_siberia_west",
+      "reg_siberia_central",
+      "reg_siberia_east",
+      "reg_russia_far_east",
+      "reg_russia_yakutia"
+    ],
+    "population": 1,
+    "prosperity": 18,
+    "unrest": 15,
+    "controlling_faction_id": "fac_church",
+    "lon": 0,
+    "lat": 79
+  },
+  {
+    "id": "reg_antarctica",
+    "name": "Antarctica",
+    "owner": "leshikus",
+    "adjacent_region_ids": [
+      "reg_chile",
+      "reg_argentina",
+      "reg_south_africa",
+      "reg_australia_south",
+      "reg_new_zealand"
+    ],
+    "population": 1,
+    "prosperity": 85,
+    "unrest": 5,
+    "controlling_faction_id": "fac_bureau",
+    "lon": 0,
+    "lat": -76
+  }
+]

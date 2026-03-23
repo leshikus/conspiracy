@@ -4,7 +4,7 @@ on:
   pull_request:
     branches: [main]
     paths:
-      - 'world/*/orders/turn.json'
+      - '*/orders/turn.json'
 
 jobs:
   resolve-turn:
@@ -42,14 +42,16 @@ jobs:
             echo "No orders file found in PR. Skipping."
             exit 0
           fi
-          USERID=$(echo "$CHANGED" | cut -d'/' -f2)
-          TURN=$(jq -r '.turn' "world/$USERID/turn.json")
+          USERID=$(echo "$CHANGED" | cut -d'/' -f1)
+          TURN=$(jq -r '.turn' "$USERID/turn.json")
           echo "userid=$USERID" >> $GITHUB_OUTPUT
           echo "turn=$TURN"     >> $GITHUB_OUTPUT
           echo "Detected userid=$USERID turn=$TURN"
 
       - name: Run simulation engine
         id: simulate
+        env:
+          CONSPIRACY_WORLD_ROOT: ${{ github.workspace }}
         run: |
           cd conspiracy-game
           python -m engine.main "${{ steps.detect.outputs.userid }}" "${{ steps.detect.outputs.turn }}"
@@ -60,7 +62,7 @@ jobs:
           git config user.email "ci@conspiracy.game"
           git fetch origin main
           git merge origin/main -X theirs --no-edit || true
-          git add world/
+          git add .
           git commit -m "Turn ${{ steps.detect.outputs.turn }}: world state resolved" || echo "Nothing to commit."
           git push
 
