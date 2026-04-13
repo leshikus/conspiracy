@@ -21,8 +21,8 @@ Run `gh pr list` for these three repos:
 
 ### What to include
 
-- If `report.old` exists: for the **Merged** section, exclude PRs already present in `report.old`'s Merged section (check by PR URL). Always include all currently open and draft PRs regardless of `report.old`.
-- If `report.old` does not exist: include merged PRs from the **last 7 days**.
+- For the **Merged** section, include PRs merged between 13:00 Munich time (CET/CEST) on Monday of last week and 13:00 Munich time on Monday of this week.
+- Always include all currently open and draft PRs.
 
 ### Report structure
 
@@ -63,6 +63,46 @@ cd ~/ClickHouse-private && gh pr list --author leshikus --state all --limit 50 -
 # Update a PR title
 gh pr edit <URL> --title "..."
 ```
+
+## Daily Report (`report-daily.txt`)
+
+When asked to create a daily report, write `report.txt` with the following format:
+
+```
+## Daily Report YYYY-MM-DD
+
+## Blocked / Reverted
+
+<URL>
+<title>
+Status: <status note>
+
+...
+
+## In Progress
+
+<URL>
+<title>
+Status: <status note>
+
+...
+
+## Merged
+
+<URL>
+<title>
+```
+
+Each entry includes:
+- PR URL
+- PR title
+- `Status:` line with a brief note on current state or blockers (except Merged entries); for unmerged PRs, start with one of: `Draft`, `No approval`, or `Testing` (use `draft` if the PR is a draft, `no approval` if it is not a draft and has no human approval, `testing` otherwise), followed by any additional context
+
+Section order: Blocked / Reverted first, then In Progress, then Merged last.
+
+### Time range
+
+Include only PRs with activity (created, updated, or merged) after 13:00 Munich time (CET/CEST) of the previous day.
 
 ## Updating These Instructions
 
