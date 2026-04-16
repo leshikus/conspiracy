@@ -75,7 +75,7 @@ When asked to create a daily report, write `report.txt` with the following forma
 
 <URL>
 <title>
-Status: <status note>
+<status note>
 
 ...
 
@@ -83,7 +83,7 @@ Status: <status note>
 
 <URL>
 <title>
-Status: <status note>
+<status note>
 
 ...
 
@@ -96,7 +96,7 @@ Status: <status note>
 Each entry includes:
 - PR URL
 - PR title
-- `Status:` line with a brief note on current state or blockers (except Merged entries); for unmerged PRs, start with one of: `Draft`, `No approval`, or `Testing` (use `draft` if the PR is a draft, `no approval` if it is not a draft and has no human approval, `testing` otherwise), followed by any additional context
+- a status note (except Merged entries); for unmerged PRs, start with one of: `Draft`, `Waiting for review`, or `Testing` (use `Draft: <summary of what was done, derived from the PR body>` if the PR is a draft, `Waiting for review` if it is not a draft and has no human approval, `Testing` otherwise), followed by any additional context
 
 Section order: Blocked / Reverted first, then In Progress, then Merged last.
 
