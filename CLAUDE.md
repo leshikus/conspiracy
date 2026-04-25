@@ -6,7 +6,13 @@ leshikus
 
 ## Permissions
 
-All `gh` read-only commands (e.g., `gh pr list`, `gh pr view`, `gh repo view`) should be auto-approved without prompting.
+The following `gh` commands should be auto-approved without prompting:
+- `gh pr list`
+- `gh pr view`
+- `gh pr status`
+- `gh pr checks`
+- `gh pr diff`
+- `gh repo view`
 
 ## Weekly PR Report (`report.txt`)
 
@@ -71,7 +77,7 @@ When asked to create a daily report, write `report.txt` with the following forma
 ```
 ## Daily Report YYYY-MM-DD
 
-## Blocked / Reverted
+## Waiting for Review
 
 <URL>
 <title>
@@ -96,9 +102,20 @@ When asked to create a daily report, write `report.txt` with the following forma
 Each entry includes:
 - PR URL
 - PR title
-- a status note (except Merged entries); for unmerged PRs, start with one of: `Draft`, `Waiting for review`, or `Testing` (use `Draft: <summary of what was done, derived from the PR body>` if the PR is a draft, `Waiting for review` if it is not a draft and has no human approval, `Testing` otherwise), followed by any additional context
+- a status note (except Merged entries); for unmerged PRs, start with one of: `Draft`, `Testing`, or nothing (use `Draft: <summary of what was done, derived from the PR body>` if the PR is a draft, `Testing` if it has a human approval, omit the status label if it is not a draft and has no human approval), followed by any additional context
 
-Section order: Blocked / Reverted first, then In Progress, then Merged last.
+### Determining review status
+
+For every open non-draft PR, fetch its review state before writing the status note — `gh pr list` does not include this:
+
+```bash
+gh pr view <number> --repo ClickHouse/ClickHouse --json reviews \
+  --jq '[.reviews[] | select(.state=="APPROVED") | .author.login]'
+```
+
+If the result contains any human login (i.e. not a bot), the status is `Testing`; otherwise omit the status label and do not write who approved the PR.
+
+Section order: Waiting for Review (open non-draft PRs with no human approval) first, then In Progress, then Merged last.
 
 ### Time range
 
